@@ -1,1 +1,6 @@
 /*Jack Krejci Yahtzee CSS File*/
+h1.title {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+}

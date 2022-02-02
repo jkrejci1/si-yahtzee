@@ -1,1 +1,1 @@
-ECHO is on.
+//Jack Krejci Yahtzee JS File

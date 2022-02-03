@@ -20,7 +20,7 @@ window.onload = function RollDice() {
     document.getElementById("dice3").value = dice3;
     document.getElementById("dice4").value = dice4;
     document.getElementById("dice5").value = dice5;
-}
+};
 
 //Function for yes or no button
 function decisionYes() {
@@ -120,9 +120,9 @@ function RollDice() {
 
             document.getElementById("score").value = sumDice;
 
-            //Reset the game and show results
+            //Reset the game and show results (This is when the user wins)
             if (sumDice > 50) {
-                document.getElementById("result").innerHTML = "YOU WON! <br>" 
+                document.getElementById("result").innerHTML = "YOU WON! <br>";
 
                 //Ask if the user would like to play again
                 document.getElementById("again").innerHTML = "Play again?";

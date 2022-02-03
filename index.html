@@ -18,12 +18,35 @@
         <p>In this game of Yahtzee, you will roll 5 different dice<br>
            and will be able to roll up to 3 times. Your score will<br>
            then be totaled along with possible special rolls like a<br>
-           5 of a kind for example. In tbis single player game of<br>
-           Yahtzee, the way to win is to score more than 100. Good luck!</p>
+           5 of a kind for example. In this single player game of<br>
+           Yahtzee, the way to win is to score more than 50. Good luck!<br>
+           Dice has already been rolled for you so you know where to look<br>
+           when you roll them. This is a one time thing though!</p>
 
         <!--Below is to roll the dice-->
-        Roll Dice
-        Roller
+        Roll Dice <button type="button" onclick="RollDice()">Roll</button><br><br>
+        Dice 1: <input id="dice1" type="text" value="" size="5" disabled><br><br>
+        Dice 2: <input id="dice2" type="text" value="" size="5" disabled><br><br>
+        Dice 3: <input id="dice3" type="text" value="" size="5" disabled><br><br>
+        Dice 4: <input id="dice4" type="text" value="" size="5" disabled><br><br>
+        Dice 5: <input id="dice5" type="text" value="" size="5" disabled><br><br>
+
+        <!--Give game stats-->
+        Score: <input id="score" type="text" value="" size="5" disabled><br><br>
+
+        <!--Show if the user won or not at the end of the game-->
+        <p class="results" id="result"></p>
+        <p id="again"></p>
+
+        <!--Yes and No button for replay-->
+        <button type="button" id="yesbutton" onclick="decisionYes()" style="visibility:hidden;">Yes</button>
+        <button type="button" id="nobutton" onclick="decisionNo()" style="visibility:hidden;">No</button>
+
+        <!--Press play button when user stops the game-->
+        <p id="replaytxt" style="visibility:hidden;">WIMP! Press the play button to reset the game, then roll!</p>
+        <button type="button" id="restart" onclick="decisionPlay()" style="visibility:hidden;">Play</button>
+
+
 
         
     </body>

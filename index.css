@@ -1,6 +1,22 @@
 /*Jack Krejci Yahtzee CSS File*/
+
+input { text-align:right; }
+
+p.results {
+    color: green;
+
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 h1.title {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: oblique;
+}
+
+body {
+    background-color: bisque;
 }
